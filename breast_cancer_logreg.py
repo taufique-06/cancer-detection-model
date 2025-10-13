@@ -2,6 +2,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 dataset = pd.read_csv('breast_cancer.csv')
 
@@ -23,3 +25,13 @@ y_predict = lr.predict(X_test)
 cm = confusion_matrix(y_test, y_predict)
 print("Confusion Matrix:")
 print(cm)
+
+# CM Plot
+plt.figure(figsize=(6, 4))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
+xticklabels=['Predicted Benign', 'Predicted Malignant'],
+yticklabels=['Actual Benign', 'Actual Malignant'])
+plt.title('Confusion Matrix Heatmap')
+plt.ylabel('Actual')
+plt.xlabel('Predicted')
+plt.show()
