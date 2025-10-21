@@ -5,10 +5,10 @@ After training multiple classification algorithms, we evaluate their performance
 
 ## What is Confusion Matrix and what does it mean
 
-| Actual \ Predicted | Benign (2) | Malignant (4) |
+| Actual Predicted | Benign | Malignant |
 |-------------------|------------|---------------|
-| Benign (2)        | 102        | 5             |
-| Malignant (4)     | 5          | 59            |
+| Benign        | 102        | 5             |
+| Malignant     | 5          | 59            |
 
 ### Interpretation:
 
