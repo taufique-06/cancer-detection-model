@@ -1,6 +1,16 @@
 # Cancer-Detection-model
 End-to-end machine learning project for breast cancer classification. Includes data preprocessing, exploratory data analysis, and model evaluation using various classification algorithms such as Logistic Regression, Decision Trees, Random Forest, SVM, KNN, and more to determine the best-performing model.
 
+After training multiple classification algorithms, we evaluate their performance using accuracy, precision, recall, F1-score, and confusion matrices.
+
+Confusion Matrix Example
+[[102   5]
+ [  5  59]]
+
+	Predicted Benign (2)	Predicted Malignant (4)
+Actual Benign (2)	102 ✅	5 ❌
+Actual Malignant (4)	5 ❌	59 ✅
+
 # Results
 
 ## Logistic Regression
@@ -25,8 +35,12 @@ End-to-end machine learning project for breast cancer classification. Includes d
 #### Accuracy Score: 95.90%
 <img width="519" height="404" alt="image" src="https://github.com/user-attachments/assets/9f047aa8-14dd-443f-9d00-ef9600a04887" />
 
-
 ## Random Forest Classification
+#### Accuracy Score: 93.56%
+<img width="528" height="408" alt="image" src="https://github.com/user-attachments/assets/6fb4524d-b912-4268-a821-b274d16c7bd4" />
+
 
 ## Support Vector Machine
-#### Accuracy Score: 95.90%
+#### Accuracy Score: 94.15%
+<img width="516" height="410" alt="image" src="https://github.com/user-attachments/assets/0a96d7be-7590-41fa-a231-217c3feb401a" />
+
