@@ -1,7 +1,7 @@
 # Cancer-Detection-model
 End-to-end machine learning project for breast cancer classification. Includes data preprocessing, exploratory data analysis, and model evaluation using various classification algorithms such as Logistic Regression, Decision Trees, Random Forest, SVM, KNN, and more to determine the best-performing model.
 
-After training multiple classification algorithms, we evaluate their performance using accuracy and confusion matrices.
+After training multiple classification algorithms, we evaluate their performance using accuracy and confusion matrices. In addition, this repo can be used to quickly evaluate which classification model is suitable for your particular dataset
 
 ## What is Confusion Matrix and what does it mean
 
@@ -20,7 +20,8 @@ False Negatives (FN = 5): Malignant samples incorrectly predicted as benign
 
 True Positives (TP = 59): Correctly predicted malignant samples
 
-# Results
+# Results / Model Evaluation
+The evaluation results indicate that the Decision Tree classifier performed best with an accuracy of 95.90%, while the Kernel SVM closely followed with 95.32%.
 
 ## Logistic Regression
 ![image (1)](https://github.com/user-attachments/assets/7642d297-de86-4b29-b69f-65ea6ab46b13)
@@ -29,16 +30,13 @@ True Positives (TP = 59): Correctly predicted malignant samples
 #### Accuracy Score: 94.73%
 <img width="527" height="400" alt="image" src="https://github.com/user-attachments/assets/031fbd22-1d0e-4c07-87f3-2263dff50c7c" />
 
-
 ## Kernel SVM
 #### Accuracy Score: 95.32%
 <img width="605" height="409" alt="image" src="https://github.com/user-attachments/assets/af49ed5f-ae7a-4ff6-9100-518d6668c2a7" />
 
-
 ## Naive Bayes
 #### Accuracy Score: 94.15%
 <img width="511" height="405" alt="image" src="https://github.com/user-attachments/assets/fc4274d6-1a4a-413d-8f3c-11e35e630d6a" />
-
 
 ## Decision Tree Regression
 #### Accuracy Score: 95.90%
