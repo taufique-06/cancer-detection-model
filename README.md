@@ -1,15 +1,24 @@
 # Cancer-Detection-model
 End-to-end machine learning project for breast cancer classification. Includes data preprocessing, exploratory data analysis, and model evaluation using various classification algorithms such as Logistic Regression, Decision Trees, Random Forest, SVM, KNN, and more to determine the best-performing model.
 
-After training multiple classification algorithms, we evaluate their performance using accuracy, precision, recall, F1-score, and confusion matrices.
+After training multiple classification algorithms, we evaluate their performance using accuracy and confusion matrices.
 
-Confusion Matrix Example
-[[102   5]
- [  5  59]]
+## What is Confusion Matrix and what does it mean
 
-	Predicted Benign (2)	Predicted Malignant (4)
-Actual Benign (2)	102 ✅	5 ❌
-Actual Malignant (4)	5 ❌	59 ✅
+| Actual \ Predicted | Benign (2) | Malignant (4) |
+|-------------------|------------|---------------|
+| Benign (2)        | 102        | 5             |
+| Malignant (4)     | 5          | 59            |
+
+### Interpretation:
+
+True Negatives (TN = 102): Correctly predicted benign samples
+
+False Positives (FP = 5): Benign samples incorrectly predicted as malignant
+
+False Negatives (FN = 5): Malignant samples incorrectly predicted as benign
+
+True Positives (TP = 59): Correctly predicted malignant samples
 
 # Results
 
